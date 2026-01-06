@@ -5,7 +5,7 @@ from utils import build_event
 from utils.holidays_handler import get_holidays
 
 
-SEM_BEGIN = build_event.generate_india_time(2026, 1, 02, 0, 0)
+SEM_BEGIN = build_event.generate_india_time(2026, 1, 2, 0, 0)
 MID_TERM_BEGIN = build_event.generate_india_time(2026, 2, 18, 0, 0)
 MID_TERM_END = build_event.generate_india_time(2026, 2, 26, 0, 0)
 END_TERM_BEGIN = build_event.generate_india_time(2026, 4, 22, 0, 0)
