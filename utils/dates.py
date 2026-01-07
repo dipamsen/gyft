@@ -5,10 +5,10 @@ from utils import build_event
 from utils.holidays_handler import get_holidays
 
 
-SEM_BEGIN = build_event.generate_india_time(2025, 7, 16, 0, 0)
-MID_TERM_BEGIN = build_event.generate_india_time(2025, 9, 18, 0, 0)
-MID_TERM_END = build_event.generate_india_time(2025, 9, 26, 0, 0)
-END_TERM_BEGIN = build_event.generate_india_time(2025, 11, 17, 0, 0)
+SEM_BEGIN = build_event.generate_india_time(2026, 1, 2, 0, 0)
+MID_TERM_BEGIN = build_event.generate_india_time(2026, 2, 18, 0, 0)
+MID_TERM_END = build_event.generate_india_time(2026, 2, 26, 0, 0)
+END_TERM_BEGIN = build_event.generate_india_time(2026, 4, 22, 0, 0)
 AUT_BREAK_BEGIN = build_event.generate_india_time(2025, 9, 27, 0, 0)
 AUT_BREAK_END = build_event.generate_india_time(2025, 10, 5, 0, 0)
 
